@@ -342,8 +342,8 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
+    if (score <= 89) return '再接再厉';
+    if (score <= 119) return '还不错哦';
     if (score <= 199) return '您';
     return '人？';
 }
